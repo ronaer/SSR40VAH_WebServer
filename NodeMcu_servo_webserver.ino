@@ -106,7 +106,7 @@ void control_pilotLed() {
 void setup() {
   Serial.begin(115200);
   delay(500);
-  myservo.attach(5, 400, 2500);  // Servo veri pini GPIO 14'de, alt ve üst limitler tanımlandı...
+  myservo.attach(5, 400, 2500);  // Servo veri pini GPIO 5 / D1'de, alt ve üst limitler tanımlandı...
   myservo.write(0);
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);
