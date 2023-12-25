@@ -2,7 +2,7 @@
  * Dr.TRonik / YouTube / ARALIK 2023 / İzmir / Türkiye 
  * ESP8266 NodeMcu ile, microservo+pot kullanılarak SSR 40VA-H dimmer rölenin Local WebServer ile konrolü...
  * Derleme ve karta yükleme öncesi, tüm kütüphaneler ile kart platformları arduino ide'sine yüklenmiş olmalıdır...
- * YouTube: 
+ * YouTube: https://youtu.be/L0Y7vJ57o-k
  * Bağlantılar: https://github.com/ronaer/SSR40VAH_WebServer/blob/main/ssr-40-va-h_bb.jpg
  * Bağlantılar: https://github.com/ronaer/SSR40VAH_WebServer/blob/main/servo_nodemcu_bb.png
 */
