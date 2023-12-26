@@ -56,13 +56,12 @@ void controlServo() {
   if (t_state == "1") {
     servoState = pos;
     control_pilotLed();
-    for (pos = 0; pos <= 180; pos += 1) {  // Servo açısı 0'dan 180'e...
-      // in steps of 1 degree
+    for (pos = 0; pos <= 180; pos += 1) {  // Servo açısı 0'dan 180'e birer dereclik açı ile...
       myservo.write(pos);
       delay(15);
     }
     control_pilotLed();
-    for (pos = 180; pos >= 0; pos -= 1) {  // Servo açısı 180'den 0'a...
+    for (pos = 180; pos >= 0; pos -= 1) {  // Servo açısı 180'den 0'a birer dereclik açı ile...
       myservo.write(pos);
       delay(15);
     }
